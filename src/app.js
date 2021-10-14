@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 //connecting to db
-mongoose.connect('mongodb://localhost/crud-mongo')
+mongoose.connect('mongodb+srv://ramer8:beni2017@cluster0.fwz7p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
 .then(db => console.log('Db connected OK'))
 .catch(err => console.log(err));
 
